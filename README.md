@@ -23,7 +23,7 @@ Welcome to **Cafe Élan**, a beautifully crafted, modern, and responsive coffee 
 
 ## 📷 Preview
 
-![Cafe Elan Screenshot](assets/your-screenshot.png)
+![Cafe Elan Screenshot](assets/Hero-page.png)
 
 ---
 
@@ -37,5 +37,5 @@ This project is licensed under the **MIT License** — free to use and modify. J
 
 Like the project? Star it ⭐ — or reach out to collaborate!
 
-- Instagram: [@yourhandle](https://instagram.com/alensharhan)
+- Instagram: [@alensharhan](https://instagram.com/alensharhan)
 
