@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Élan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <h1 class="logo">Cafe Élan</h1>
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">☰</div>
+      <ul id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header class="header" id="hero">
+      <h2 class="main-heading">START YOUR DAY</h2>
+      <h2 class="primary-heading">WITH OUR COFFEE</h2>
+      <button class="main-btn">Shop Now</button>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="img-div"></div>
+      <div class="text-container">
+        <h2 class="heading-text">About Us</h2>
+        <p class="paragraph-text">
+          At Cafe Élan, coffee is more than just a drink — it's a moment of
+          warmth, a sip of calm, and a taste of passion. We source the finest
+          beans, roast with care, and brew with heart. Every cup is crafted to
+          energize your day and enrich your mood.
+        </p>
+        <button class="learn-btn">Learn More</button>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+      <h2 class="section-title">Our Favorites</h2>
+      <div class="menu-cards-wrapper">
+        <!-- Menu Card 1 -->
+        <div class="menu-card-modern">
+          <img
+            src="assets/menu-coffee1.avif"
+            alt="Mocha"
+            class="floating-coffee"
+          />
+          <h3>Mocha</h3>
+          <ul>
+            <li>Espresso</li>
+            <li>Chocolate</li>
+            <li>Steamed Milk</li>
+          </ul>
+        </div>
+
+        <!-- Menu Card 2 -->
+        <div class="menu-card-modern">
+          <img
+            src="assets/menu-coffee2.avif"
+            alt="Latte"
+            class="floating-coffee"
+          />
+          <h3>Vanilla Latte</h3>
+          <ul>
+            <li>Espresso</li>
+            <li>Vanilla Syrup</li>
+            <li>Steamed Milk</li>
+          </ul>
+        </div>
+
+        <!-- Menu Card 3 -->
+        <div class="menu-card-modern">
+          <img
+            src="assets/menu-coffee3.avif"
+            alt="Espresso"
+            class="floating-coffee"
+          />
+          <h3>Classic Espresso</h3>
+          <ul>
+            <li>Fresh Beans</li>
+            <li>Bold Flavor</li>
+            <li>No Milk</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <h2 class="footer-logo">Cafe Élan</h2>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Cafe Élan. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
