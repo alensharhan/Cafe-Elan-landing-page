@@ -17,7 +17,7 @@ Welcome to **Cafe Élan**, a beautifully crafted, modern, and responsive coffee 
 
 ## 🚀 Live Demo
 
-👉 [https://www.cafe-elan.netlify.app](#) 
+👉 [cafe-elan.netlify.app](https://cafe-elan.netlify.app) 
 
 ---
 
