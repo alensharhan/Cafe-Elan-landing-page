@@ -1,6 +1,6 @@
 # ☕ Cafe Élan - The Coffee Experience, Refined
 
-Welcome to **Cafe Élan**, a beautifully crafted, modern, and responsive coffee shop landing page. Built using only HTML and CSS, this project blends smooth UI design, scroll animations, parallax effects, and mobile responsiveness — perfect for cafes, restaurants, or creative portfolios.
+Welcome to **Cafe Élan**, a beautifully crafted, modern, and responsive coffee shop landing page. Built using only HTML and CSS, this project blends smooth UI design, scroll animations, parallax effects, and mobile responsiveness - perfect for cafes, restaurants, or creative portfolios.
 
 ---
 
